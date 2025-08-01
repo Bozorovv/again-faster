@@ -1,0 +1,43 @@
+.woman {
+    background-image: url('../Image/woman.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 688px;
+    margin-top: 100px;
+}
+
+.women_wrapper h1 {
+font-family: var(--font-family);
+font-weight: 700;
+font-size: 40px;
+line-height: 143%;
+letter-spacing: 0.18em;
+text-transform: uppercase;
+color: var(--af-white);
+margin-bottom: 24px;
+padding-top: 203px;
+}
+
+.women_wrapper p {
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 167%;
+color: var(--af-white);
+margin-bottom: 40px;
+width: 490px;
+}
+
+.women_wrapper button {
+    background-color: transparent;
+    border: 1px solid var(--af-white);
+width: 236px;
+height: 58px;
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 12px;
+letter-spacing: 0.17em;
+text-transform: uppercase;
+color: var(--af-white);
+}

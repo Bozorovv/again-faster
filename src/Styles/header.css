@@ -1,0 +1,141 @@
+.header{ 
+
+    position: absolute;
+    
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.main_header {
+    position: relative;
+    background-color:transparent ;
+}
+
+.header_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 18px;
+}
+
+.header_list {
+    display: flex;
+    align-items: center;
+gap: 40px;
+}
+
+.header_btn {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.header_list a li{
+  font-family: var(--font-family);
+font-weight: 400;
+font-size: 12px;
+line-height: 140%;
+letter-spacing: 0.17em;
+text-transform: uppercase;
+color: var(--af-white);
+
+}
+.main_header .header_list a li{
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 12px;
+line-height: 140%;
+letter-spacing: 0.17em;
+text-transform: uppercase;
+color: var(--af-black);
+
+}
+
+.modal {
+    
+     position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.75); 
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    transition: opacity 0.35s ease, transform 0.35s ease;
+    
+    transform: scale(0.95);
+}
+.modal_wrapper {
+    background: #222;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6);
+    text-align: center;
+    color: white;
+    max-width: 90%;
+    width: 320px;
+    display: block;
+    margin: 220px auto;
+}
+.modal ul li a {
+       font-family: var(--font-family);
+       color: #fff;
+
+}
+.x {
+    cursor: pointer;
+    font-size: 24px;
+    color: #fff;
+    position: absolute;
+    top: 20px;
+    right: 25px;
+}
+
+.burger {
+    display: none;
+}
+
+.open {
+    display: block;
+}
+
+.burger {
+    cursor: pointer;
+}
+
+.no-scroll {
+  overflow: hidden;
+
+}
+
+.header_btn {
+    cursor: pointer;
+}
+
+
+
+
+@media(max-width:768px) {
+  
+    .header_list {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .header_btn img:nth-last-of-type(3) {
+        display: none;
+    }
+}
+
+
+
+
+@media(max-width:500px) {
+    .header_btn img:nth-last-of-type(2) {
+        display: none;
+    }
+}
