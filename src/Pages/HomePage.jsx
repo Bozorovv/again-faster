@@ -9,6 +9,7 @@ import Category2 from '../Components/Category2'
 import Amazing from '../Components/Amazing'
 import Traning from '../Components/Traning'
 import Cards from '../Components/Cards'
+import Feature from '../Components/Feature'
 
 function HomePage() {
   return (
@@ -23,6 +24,7 @@ function HomePage() {
       <Amazing />
       <Traning />
       <Cards />
+      <Feature />
     </div>
   )
 }
