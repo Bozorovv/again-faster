@@ -1,0 +1,132 @@
+.category2 {
+    margin-top: 120px;
+    margin-bottom: 100px;
+}
+
+.cate2 span {
+    font-family: var(--second-family);
+font-weight: 300;
+font-size: 12px;
+line-height: 168%;
+letter-spacing: 0.16em;
+text-transform: uppercase;
+color: var(--af-black);
+margin-bottom: 16px;
+}
+
+.cate2 h1 {
+    font-family: var(--font-family);
+font-weight: 600;
+font-size: 24px;
+line-height: 130%;
+letter-spacing: 0.08em;
+text-transform: uppercase;
+color: var(--af-black);
+margin-bottom: 16px;
+}
+
+.cate2 p {
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 167%;
+color: #8f8f8f;
+margin-bottom: 40px;
+}
+
+.cate2 button {
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid black ;
+    cursor: pointer;
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 12px;
+letter-spacing: 0.17em;
+text-transform: uppercase;
+color: var(--af-black);
+}
+
+.cate2 {
+    padding-top: -60px;
+}
+.cate3 .cate4 {
+    max-width: 96px;
+    width: 100%;
+}
+
+.category2 .mySwiper .swiper-slide  {
+    height: 550px;
+}
+
+.cate3 h2 {
+    font-family: var(--second-family);
+font-weight: 300;
+font-size: 12px;
+line-height: 168%;
+letter-spacing: 0.16em;
+text-transform: uppercase;
+color: var(--af-black);
+padding-top: 8px;
+padding-bottom: 8px;
+}
+
+.cate3 h6 {
+    font-family: var(--second-family);
+font-weight: 300;
+font-size: 12px;
+line-height: 168%;
+letter-spacing: 0.16em;
+text-transform: uppercase;
+color: var(--af-dark-grey);padding-top: 8px;
+}
+
+.cate3 .ghj {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    border: none;
+background: var(--af-white);
+width: 90px;
+height: 28px;
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 12px;
+line-height: 167%;
+text-align: center;
+color: var(--af-black);
+}
+
+
+
+.category2 .mySwiper .swiper-slide  {
+display: flex;
+align-items: start;
+justify-content: start; }
+
+
+
+@media(max-width:710px) {
+ .category2 .mySwiper .swiper-slide  {
+    height: 430px;
+ }
+}
+@media(max-width:570px) {
+ .category2 .mySwiper .swiper-slide  {
+    height: 370px;
+ }
+}
+@media(max-width:500px) {
+ .category2 .mySwiper .swiper-slide  {
+    height: 400px;
+ }
+}
+@media(max-width:410px) {
+ .category2 .mySwiper .swiper-slide  {
+    height: 350px;
+ }
+ .cate2 p {
+    font-size: small;
+ }
+}
+

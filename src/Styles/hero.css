@@ -168,13 +168,14 @@ cursor: pointer;
     height: 149px;
     background-color: #767676;
     display: none;
-    position: absolute;
-    bottom: -300px;
+    position: fixed;
+    bottom: -0px;
     right: 0;
     background-color: #ffffff;
     transform: translateX(-2000px);
     transition: 600ms;
-opacity: 0.6;
+opacity: 0.9;
+z-index: 9;
 }
 
 .mini_modal p {
@@ -230,15 +231,17 @@ transition: 300ms;
 
 @media (max-width:1200px) {
     .mini_modal {
-         position: absolute;
-    bottom: -390px;
+         position: fixed;
+    bottom: -0px;
+    right: 0;
     max-width: 600px;
     }
 }
 @media (max-width:1000px) {
     .mini_modal {
-         position: absolute;
-    bottom: -390px;
+        position: fixed;
+    bottom: -0px;
+    right: 0;
     max-width: 500px;
     margin-left: 40px;
     }
@@ -256,8 +259,9 @@ transition: 300ms;
 }
 @media (max-width:840px) {
     .mini_modal {
-         position: absolute;
-    bottom: -390px;
+        position: fixed;
+    bottom: -0px;
+    right: 0;
     max-width: 400px;
     margin-left: 40px;
     height: 110px;
@@ -308,8 +312,9 @@ width: 95%;
 }
 @media (max-width:690px) {
     .mini_modal {
-         position: absolute;
-    bottom: -390px;
+          position: fixed;
+    bottom: -0px;
+    right: 0;
     max-width: 300px;
     margin-left: 40px;
     height: 110px;
@@ -331,10 +336,12 @@ width: 95%;
 
 @media(max-width:560px) {
 .mini_modal {
-    bottom: -500;
+    
     max-width: 560px;
     width: 100%;
-    position: absolute;
+    position: fixed;
+    bottom: -0px;
+    right: 0;
     opacity: 0.9;
     height: 210px;
 }
@@ -366,8 +373,9 @@ width: 100%;
     }
     .mini_modal  {
            
-                position: absolute;
-                 bottom: -284px;
+                position: fixed;
+    bottom: -0px;
+    right: 0;
     }
 
 

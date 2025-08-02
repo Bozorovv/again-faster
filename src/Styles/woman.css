@@ -8,36 +8,100 @@
 }
 
 .women_wrapper h1 {
-font-family: var(--font-family);
-font-weight: 700;
-font-size: 40px;
-line-height: 143%;
-letter-spacing: 0.18em;
-text-transform: uppercase;
-color: var(--af-white);
-margin-bottom: 24px;
-padding-top: 203px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 143%;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--af-white);
+    margin-bottom: 24px;
+    padding-top: 203px;
 }
 
 .women_wrapper p {
     font-family: var(--font-family);
-font-weight: 400;
-font-size: 14px;
-line-height: 167%;
-color: var(--af-white);
-margin-bottom: 40px;
-width: 490px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 167%;
+    color: var(--af-white);
+    margin-bottom: 40px;
+    width: 490px;
+}
+
+.women_wrapper button span {
+    font-size: 15px;
+    margin-left: 90px;
 }
 
 .women_wrapper button {
     background-color: transparent;
     border: 1px solid var(--af-white);
-width: 236px;
-height: 58px;
-font-family: var(--font-family);
-font-weight: 400;
-font-size: 12px;
-letter-spacing: 0.17em;
-text-transform: uppercase;
-color: var(--af-white);
+    width: 236px;
+    height: 58px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0.17em;
+    text-transform: uppercase;
+    color: var(--af-white);
+    cursor: pointer;
+    text-align: start;
+    padding-left: 24px;
+}
+
+.women_wrapper img {
+    display: none;
+}
+
+
+@media(max-width:525px) {
+    .women_wrapper p {
+        width: 95%;
+    }
+}
+
+
+@media(max-width:500px) {
+    .women_wrapper img {
+        display: block;
+        width: 100%;
+
+    }
+
+    .women_wrapper button span {
+        right: 34px;
+        position: absolute;
+    }
+
+    .woman {
+        background-image: none;
+        height: auto;
+        margin-bottom: 24px;
+    }
+
+    .women_wrapper h1 {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 28px;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: var(--af-black);
+        padding-top: 16px;
+    }
+
+    .women_wrapper p {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 167%;
+        color: var(--af-black);
+    }
+
+    .women_wrapper button {
+        border: 1px solid var(--af-black);
+        width: 100%;
+        height: 48px;
+        color: var(--af-black);
+    }
 }

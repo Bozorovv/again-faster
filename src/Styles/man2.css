@@ -1,0 +1,62 @@
+.man2 {
+    background-image: url('../Image/man.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 688px;
+}
+
+.man2_wrapper h1 {
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 40px;
+line-height: 143%;
+letter-spacing: 0.18em;
+text-transform: uppercase;
+color: var(--af-white);
+padding-top: 282px;
+margin-bottom: 40px;
+}
+.man2_wrapper button {
+    border: 1px solid var(--af-white);
+width: 236px;
+height: 58px;
+background-color: transparent;
+cursor: pointer;
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 12px;
+letter-spacing: 0.17em;
+text-transform: uppercase;
+color: var(--af-white);
+}
+
+.smal {
+    display: none;
+    width: 100%;
+}
+
+@media(max-width:500px) {
+    .smal {
+        display: block;
+    }
+    .man2 {
+        background-image: none;
+        height: auto;
+    }
+
+    .man2_wrapper h1 {
+        font-family: var(--font-family);
+font-weight: 700;
+font-size: 28px;
+letter-spacing: 0.08em;
+text-transform: uppercase;
+color: var(--af-black);
+padding-top: 16px;
+    }
+    .man2_wrapper button {
+        border: 1px solid black;
+        width: 100%;
+        color: var(--af-black);
+    }
+}

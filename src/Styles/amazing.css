@@ -1,0 +1,80 @@
+.amazing {
+    margin-top: 160px;
+    margin-bottom: 160px;
+}
+
+.amazing_wrapper span{
+font-family: var(--second-family);
+font-weight: 300;
+font-size: 12px;
+line-height: 168%;
+letter-spacing: 0.16em;
+text-transform: uppercase;
+color: var(--af-black);
+padding-bottom: 64px;
+display: block;
+margin: 0 auto;
+text-align: center;
+}
+
+.amazing_wrapper h1 {
+    font-family: var(--font-family);
+font-weight: 600;
+font-size: 24px;
+line-height: 167%;
+letter-spacing: 0.08em;
+text-transform: uppercase;
+text-align: center;
+color: var(--af-black);
+padding-bottom: 64px;
+width: 65%;
+margin: 0 auto;
+}
+
+
+.amazing_wrapper h6 {
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 167%;
+text-align: center;
+color: var(--af-black);
+
+
+}
+
+.amazing_wrapper h6 h3 {
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 167%;
+text-align: center;
+color: var(--af-gold);
+display: inline;
+}
+
+
+@media(max-width:768px) {
+    .amazing_wrapper span {
+        margin-bottom: 40px;
+        padding: 0;
+    }
+    .amazing_wrapper h1 {
+        padding-bottom: 40px;
+        width: 100%;
+    }
+}
+
+
+@media(max-width:500px) {
+    .amazing_wrapper h1 {
+        font-size: 20px;
+    }
+   
+
+    .amazing {
+        margin-bottom: 80px;
+         margin-top: 80px;
+    }
+   
+}

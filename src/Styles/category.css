@@ -61,16 +61,13 @@ color: var(--af-black);
    
 }
 
-.swiper-pagination-progressbar {
-    bottom: 0;
-    top: auto;
-    height: 4px;
-    background-color: #ddd;
-}
 
-.swiper-pagination-progressbar-fill {
-    background-color: #000; 
-}
+
+
+
+
+
+
 
 .swiper-pagination-progressbar {
   top: auto !important;         

@@ -45,6 +45,8 @@ function Hero() {
         mini.current.classList.add("of")
       
     }
+   
+    
 
     return (
         <>
@@ -69,9 +71,11 @@ function Hero() {
 
                         <h2>Newsletter</h2>
                         <h5>Get notified of deals and new products before anybody else!</h5>
-
-                        <input type="text" placeholder='Email address' />
-                        <button onClick={clos}>Sign up</button>
+                        <form >
+                            <input type='email' placeholder='Email address' />
+                        <button  onClick={clos}>Sign up</button>
+                        </form>
+                        
                     </div>
                 </div>
             </div>

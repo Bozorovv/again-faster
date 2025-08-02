@@ -246,6 +246,7 @@ letter-spacing: 0.08em;
 text-transform: uppercase;
 color: var(--af-black);
 margin-bottom: 8px;
+width: 150%;
     }
     .man_mini p {
         font-family: var(--font-family);
@@ -254,6 +255,7 @@ font-size: 12px;
 line-height: 167%;
 color: #8f8f8f;
 margin-bottom: 24px;
+width: 150%;
     }
     .man_mini button {
           border: none;
@@ -268,6 +270,7 @@ letter-spacing: 0.17em;
 text-transform: uppercase;
 color: var(--af-black);
     }
+    
 
 }
 
